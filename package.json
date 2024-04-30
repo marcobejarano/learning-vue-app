@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "vitest-ui": "vitest --ui",
-    "coverage": "vitest run --coverage",
+    "test:coverage": "vitest run --coverage",
     "test:e2e": "npx playwright test",
     "test:e2e-report": "npx playwright show-report",
     "build-only": "vite build",
