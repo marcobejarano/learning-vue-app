@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PizzaCard > should render the pizza details 1`] = `
+"<article data-v-7f67d26c="" class="pizza--container"><img data-v-7f67d26c="" src="test-pizza.jpg" alt="Test Pizza" height="200" width="300">
+  <p data-v-7f67d26c="">Test Pizza Description</p>
+  <div data-v-7f67d26c="" class="pizza--inventory">
+    <div data-v-7f67d26c="" class="pizza--inventory-stock">Stock: 10</div>
+    <div data-v-7f67d26c="" class="pizza--inventory-price">$ 10</div><!-- <span v-if="isInCart">In cart</span> -->
+  </div><button data-v-7f67d26c="">Add to cart</button><!-- <button class="pizza--add" @click="addToCart">Add to cart</button> -->
+</article>"
+`;
