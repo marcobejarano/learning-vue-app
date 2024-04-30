@@ -1,5 +1,5 @@
 <template>
-  <article v-if="pizza" class="pizza--container">
+  <article v-if="pizza" class="pizza--container" :data-testid="pizza.title">
     <img :src="pizza.image" :alt="pizza.title" height="200" width="300" />
     <p>{{ pizza.description }}</p>
     <div class="pizza--inventory">
